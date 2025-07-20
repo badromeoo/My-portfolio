@@ -1,7 +1,5 @@
 import React from 'react';
-// Impor komponen animasi
 import BlurText from '../components/BlurText'; 
-// Pastikan Anda menaruh gambar di folder assets
 import Avatar from '../assets/professional-photo.png'; 
 
 const Hero = ({ onScrollTo }) => {
@@ -9,10 +7,8 @@ const Hero = ({ onScrollTo }) => {
     <section id="hero" className="z-10 flex flex-col items-center justify-center min-h-screen p-8 text-center md:flex-row md:text-left">
       <div className="mb-8 md:w-1/2 md:mb-0">
         
-        {/* Cara penggunaan BlurText yang benar */}
-        <BlurText 
-        
-        className="mb-2 text-5xl font-bold text-white">
+        {/* Menambahkan kelas untuk perataan flex yang responsif */}
+        <BlurText className="flex flex-wrap justify-center mb-2 text-5xl font-bold text-white md:justify-start">
           I Made Bintang Astawa
         </BlurText>
         
@@ -22,7 +18,6 @@ const Hero = ({ onScrollTo }) => {
         <p className="max-w-md mx-auto mb-6 text-lg text-slate-300 md:mx-0">
           Membangun solusi web yang skalabel dan berkinerja tinggi untuk kebutuhan bisnis Anda.
         </p>
-        {/* Memperbaiki typo jAustify-center */}
         <div className="flex justify-center space-x-4 md:justify-start">
           <button 
             onClick={() => onScrollTo('portfolio')} 
