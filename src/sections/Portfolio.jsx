@@ -10,7 +10,7 @@ const Portfolio = () => {
       <div className="max-w-6xl mx-auto text-center">
         {/* Ubah warna teks heading */}
         <h2 className="mb-12 text-3xl font-bold text-white md:text-4xl">
-          Portfolio Proyek
+          Portfolio Project
         </h2>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {portfolioProjects.map((project) => (

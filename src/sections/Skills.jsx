@@ -23,7 +23,7 @@ const Skills = () => {
       <div className="max-w-4xl mx-auto text-center">
         {/* Ubah warna teks heading utama */}
         <h2 className="mb-12 text-3xl font-bold text-white md:text-4xl">
-          Keahlian Teknis
+          Tech Stack
         </h2>
 
         <div className="grid gap-8 md:grid-cols-3">

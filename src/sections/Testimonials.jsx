@@ -9,7 +9,7 @@ const Testimonials = () => {
       <div className="max-w-4xl mx-auto text-center">
         {/* Ubah warna teks heading */}
         <h2 className="mb-12 text-3xl font-bold text-white md:text-4xl">
-          Apa Kata Mereka
+          What They Said 
         </h2>
         <div className="space-y-8">
           {testimonials.map((testimonial) => (

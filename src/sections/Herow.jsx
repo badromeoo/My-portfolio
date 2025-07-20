@@ -16,20 +16,21 @@ const Hero = ({ onScrollTo }) => {
           Full-Stack Web Developer
         </h2>
         <p className="max-w-md mx-auto mb-6 text-lg text-slate-300 md:mx-0">
-          Membangun solusi web yang skalabel dan berkinerja tinggi untuk kebutuhan bisnis Anda.
+          
+Building scalable and high-performance web solutions for your business needs.
         </p>
         <div className="flex justify-center space-x-4 md:justify-start">
           <button 
             onClick={() => onScrollTo('portfolio')} 
             className="px-6 py-3 font-bold text-white transition duration-300 rounded-lg bg-sky-500 hover:bg-sky-600"
           >
-            Lihat Portfolio
+            Portfolio
           </button>
           <button 
             onClick={() => onScrollTo('contact')} 
             className="px-6 py-3 font-bold transition duration-300 border rounded-lg border-slate-300 text-slate-300 hover:bg-slate-300 hover:text-slate-900"
           >
-            Hubungi Saya
+            Contact Me
           </button>
         </div>
       </div>

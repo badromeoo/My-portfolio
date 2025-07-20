@@ -9,7 +9,7 @@ const Experience = () => {
       <div className="max-w-4xl mx-auto">
         {/* Ubah warna teks heading */}
         <h2 className="mb-12 text-3xl font-bold text-center text-white md:text-4xl">
-          Pengalaman Kerja
+          Work Experience
         </h2>
         <div className="space-y-12">
           {workExperience.map((exp) => (

@@ -6,23 +6,23 @@ import ClientImage4 from "./assets/hening.jpg"
 import ClientImage5 from "./assets/dewa.jpg"
 export const portfolioProjects = [
   {
-    title: "Platform E-commerce untuk XYZ Retail",
-    description: "Membangun platform e-commerce yang skalabel untuk memperluas jangkauan pasar dan mengefisiensikan proses penjualan.",
+    title: "Platform E-commerce XYZ Retail",
+    description: "Building a scalable e-commerce platform to expand market reach and streamline the sales process.",
     technologies: ["React", "Node.js", "MongoDB", "AWS"],
     imageUrl: ProjectImage1, // Ganti dengan URL gambar proyek Anda
     // link: "#" // Opsional: Link ke proyek live atau GitHub
   },
   {
-    title: "Aplikasi Manajemen Tugas",
-    description: "Sebuah aplikasi web untuk membantu tim mengelola tugas harian, melacak progres, dan berkolaborasi secara efisien.",
+    title: "Task Management App",
+    description: "A web application to help teams manage daily tasks, track progress, and collaborate efficiently.",
     technologies: ["Vue.js", "Firebase", "Tailwind CSS"],
     imageUrl: ProjectImage2, // Ganti dengan URL gambar proyek Anda
     // link: "#"
   },
   {
-    title: "Aplikasi Manajemen Tugas",
-    description: "Sebuah aplikasi web untuk membantu tim mengelola tugas harian, melacak progres, dan berkolaborasi secara efisien.",
-    technologies: ["Vue.js", "Firebase", "Tailwind CSS", ""],
+    title: "Task Management App",
+    description: "A web application to help teams manage daily tasks, track progress, and collaborate efficiently..",
+    technologies: ["Vue.js", "Firebase", "Tailwind CSS", ],
     imageUrl: ProjectImage3, // Ganti dengan URL gambar proyek Anda
     // link: "#"
   },
@@ -33,21 +33,21 @@ export const workExperience = [
   {
     jobTitle: "Full-Stack Web Developer",
     company: "Tech Solutions Inc.",
-    timeline: "Januari 2021 - Sekarang",
+    timeline: "January 2021 - Now",
     responsibilities: [
-      "Mengembangkan dan memelihara aplikasi web full-stack menggunakan React dan Node.js.",
-      "Berkolaborasi dengan desainer untuk menciptakan antarmuka yang responsif.",
-      "Mengelola database dan mengoptimalkan query untuk performa.",
+      "Develope and maintain full-stack web applications using React and Node.js.",
+      "Collaborate with designers to create responsive interfaces.",
+      "Manage databases and optimize queries for performance.",
     ],
   },
   {
     jobTitle: "Junior Web Developer",
     company: "Digital Creations",
-    timeline: "Juni 2019 - Desember 2020",
+    timeline: "June 2019 - Desember 2020",
     responsibilities: [
-      "Membantu tim senior dalam pengembangan fitur front-end.",
-      "Melakukan testing dan debugging untuk memastikan kualitas kode.",
-      "Mempelajari dan mengimplementasikan teknologi web baru.",
+      "Assisting senior team in front-end feature development.",
+      "Perform testing and debugging to ensure code quality.",
+      "Learning and implementing new web technologies."
     ],
   },
 ];
@@ -62,13 +62,13 @@ export const workExperience = [
 // Tambahkan data baru di bawah ini
 export const testimonials = [
   {
-    quote: "Kerja samanya sangat luar biasa. Proyek selesai tepat waktu dengan kualitas yang melebihi ekspektasi. Sangat direkomendasikan!",
+    quote: "The collaboration was outstanding. The project was completed on time and the quality exceeded expectations. Highly recommended!",
     name: "LADUSING",
     title: "CEO, Tech Solutions Inc.",
     imageUrl: ClientImage4,
   },
   {
-    quote: "Kerja samanya sangat luar biasa. Proyek selesai tepat waktu dengan kualitas yang melebihi ekspektasi. Sangat direkomendasikan!",
+    quote: "The collaboration was outstanding. The project was completed on time and the quality exceeded expectations. Highly recommended!",
     name: "RAJEG ",
     title: "CEO, Tech Solutions Inc.",
     imageUrl: ClientImage5,
