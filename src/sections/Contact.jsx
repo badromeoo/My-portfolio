@@ -68,10 +68,20 @@ const Contact = () => {
           <p className="text-slate-400">Atau hubungi saya melalui:</p>
           <div className="flex justify-center mt-4 space-x-6">
             {/* Ubah warna link sosial media */}
-            <a href="#" className="text-slate-400 hover:text-sky-400">
+            <a 
+              href="https://www.linkedin.com/in/i-made-bintang-astawa-865918273" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-slate-400 hover:text-sky-400"
+            >
               LinkedIn
             </a>
-            <a href="#" className="text-slate-400 hover:text-sky-400">
+            <a 
+              href="https://github.com/badromeoo" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-slate-400 hover:text-sky-400"
+            >
               GitHub
             </a>
             <a href="mailto:emailanda@contoh.com" className="text-slate-400 hover:text-sky-400">
