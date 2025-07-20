@@ -84,7 +84,7 @@ const Contact = () => {
             >
               GitHub
             </a>
-            <a href="astawabintang@gmail.com" className="text-slate-400 hover:text-sky-400">
+            <a href="mailto:astawabintang@gmail.com" className="text-slate-400 hover:text-sky-400">
               Email
             </a>
           </div>
