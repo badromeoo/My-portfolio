@@ -8,7 +8,7 @@ const Hero = ({ onScrollTo }) => {
       <div className="mb-8 md:w-1/2 md:mb-0">
         
         {/* Menambahkan kelas untuk perataan flex yang responsif */}
-        <BlurText className="flex flex-wrap justify-center mb-2 text-5xl font-bold text-white md:justify-start">
+        <BlurText className="flex flex-wrap justify-center mb-2 text-4xl font-bold text-white md:justify-start">
           I Made Bintang Astawa
         </BlurText>
         
