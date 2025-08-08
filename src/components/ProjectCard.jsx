@@ -1,11 +1,13 @@
-// src/components/ProjectCard.jsx
+
 import React from 'react';
 
 const ProjectCard = ({ project }) => {
   return (
     // Ubah style kartu menjadi semi-transparan dengan border
-    <div className="overflow-hidden transition-transform duration-300 transform border rounded-lg bg-slate-800/50 border-slate-700 hover:-translate-y-2">
-      <img src={project.imageUrl} alt={`Tangkapan layar dari proyek ${project.title}`} className="object-cover w-full h-48"/>
+    <div className="overflow-hidden transition-transform duration-300 transform border rounded-lg bg-slate-800/50 border-slate-700 hover:-translate-y-2"  >
+      <a href={project.link} target="_blank" rel="noopener noreferrer">
+        <img src={project.imageUrl} alt={`Tangkapan layar dari proyek ${project.title}`} className="object-cover w-full h-48" />
+      </a>
       <div className="p-6">
         {/* Ubah warna teks judul kartu */}
         <h3 className="mb-2 text-xl font-bold text-slate-100">{project.title}</h3>

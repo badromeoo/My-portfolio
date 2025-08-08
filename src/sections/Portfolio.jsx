@@ -1,4 +1,4 @@
-// src/sections/Portfolio.jsx
+
 import React from 'react';
 import { portfolioProjects } from '../data'; // Impor data proyek
 import ProjectCard from '../components/ProjectCard'; // Impor komponen kartu
@@ -15,7 +15,7 @@ const Portfolio = () => {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {portfolioProjects.map((project) => (
             // Menggunakan project.title sebagai key, ini praktik yang lebih baik
-            <ProjectCard key={project.title} project={project} />
+            <ProjectCard key={project.title} project={project}/>
           ))}
         </div>
       </div>

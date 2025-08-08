@@ -1,16 +1,19 @@
-// src/data.js
-import ProjectImage1 from "./assets/rengoku.jpg"
+
+import ProjectImage1 from "./assets/porto1.png"
 import ProjectImage2 from "./assets/giyu.jpg"
 import ProjectImage3 from "./assets/tanjiro.jpg"
 import ClientImage4 from "./assets/hening.jpg"
 import ClientImage5 from "./assets/dewa.jpg"
+
+
 export const portfolioProjects = [
   {
-    title: "Platform E-commerce XYZ Retail",
-    description: "Building a scalable e-commerce platform to expand market reach and streamline the sales process.",
-    technologies: ["React", "Node.js", "MongoDB", "AWS"],
+    title: "Platform Tracking Crypto",
+    description: "Building a scalable platform to track cryptocurrency investments and provide real-time analytics.",
+    technologies: ["React.js", "Node.js", "MongoDB", "Vercel"],
     imageUrl: ProjectImage1, // Ganti dengan URL gambar proyek Anda
     // link: "#" // Opsional: Link ke proyek live atau GitHub
+    link: "https://cryptotract-ashy.vercel.app/",
   },
   {
     title: "Task Management App",

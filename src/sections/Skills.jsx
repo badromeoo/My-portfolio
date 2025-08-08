@@ -1,4 +1,4 @@
-// src/sections/Skills.jsx
+
 import React from 'react';
 
 const skillCategories = [
