@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+
 import { useEffect, useRef, useState, useMemo } from 'react';
 
 const buildKeyframes = (from, steps) => {
@@ -15,7 +15,7 @@ const buildKeyframes = (from, steps) => {
 };
 
 const BlurText = ({
-  children, // Menggunakan children sebagai prop utama
+  children, 
   delay = 200,
   className = '',
   animateBy = 'words',
@@ -28,7 +28,7 @@ const BlurText = ({
   onAnimationComplete,
   stepDuration = 0.35,
 }) => {
-  const text = children; // Menggunakan children sebagai sumber teks
+  const text = children; 
   const elements = animateBy === 'words' ? text.split(' ') : text.split('');
   const [inView, setInView] = useState(false);
   const ref = useRef(null);
@@ -46,7 +46,7 @@ const BlurText = ({
     );
     observer.observe(ref.current);
     return () => observer.disconnect();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    
   }, [threshold, rootMargin]);
 
   const defaultFrom = useMemo(
@@ -79,7 +79,7 @@ const BlurText = ({
   );
 
   return (
-    // Mengubah <p> menjadi <motion.h1> agar sesuai dengan konteks heading
+    
     <motion.h1
       ref={ref}
       className={className}

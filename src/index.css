@@ -6,7 +6,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Memastikan semua elemen dasar bisa menjadi wadah setinggi layar */
+
 html, body, #root {
   height: 100%;
   margin: 0;

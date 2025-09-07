@@ -2,7 +2,7 @@ import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { forwardRef, useRef, useMemo, useLayoutEffect } from "react";
 import { Color } from "three";
 
-// ... (semua fungsi dan shader Anda tetap sama) ...
+
 const hexToNormalizedRGB = (hex) => {
   hex = hex.replace("#", "");
   return [
@@ -117,9 +117,9 @@ const Silk = ({
   );
 
   return (
-    // Hapus semua kelas posisi, biarkan App.jsx yang mengatur
+    
     <Canvas
-      className="absolute inset-0 -z-10" // Gunakan 'absolute' terhadap parent 'relative'
+      className="absolute inset-0 -z-10" 
       dpr={[1, 2]}
       frameloop="always"
     >

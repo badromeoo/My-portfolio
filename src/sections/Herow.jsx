@@ -7,7 +7,7 @@ const Hero = ({ onScrollTo }) => {
     <section id="hero" className="z-10 flex flex-col items-center justify-center min-h-screen p-8 text-center md:flex-row md:text-left">
       <div className="mb-8 md:w-1/2 md:mb-0">
         
-        {/* Menambahkan kelas untuk perataan flex yang responsif */}
+        
         <BlurText className="flex flex-wrap justify-center mb-2 text-4xl font-bold text-white md:justify-start">
           I Made Bintang Astawa
         </BlurText>
