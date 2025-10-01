@@ -1,5 +1,5 @@
 import ProjectImage1 from "./assets/porto1.png";
-import ProjectImage2 from "./assets/giyu.jpg";
+import ProjectImage2 from "./assets/srikandiva.png";
 import ProjectImage3 from "./assets/tanjiro.jpg";
 import ClientImage4 from "./assets/hening.jpg";
 import ClientImage5 from "./assets/dewa.jpg";
@@ -14,10 +14,12 @@ export const portfolioProjects = [
     link: "https://cryptotract-ashy.vercel.app/",
   },
   {
-    title: "Task Management App",
+    title: "SrikandiVa",
     description: "A web application to help teams manage daily tasks, track progress, and collaborate efficiently.",
-    technologies: ["Vue.js", "Firebase", "Tailwind CSS"],
+    technologies: ["Next.js", "Vercel", "Tailwind CSS", "Supabase", "Sanity"],
     imageUrl: ProjectImage2,
+
+    link: "https://www.srikandiva.id/",
   },
   {
     title: "Task Management App",
