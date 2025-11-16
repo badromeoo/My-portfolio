@@ -4,7 +4,7 @@ import About from "./sections/About";
 import Skills from "./sections/Skills";
 import Portfolio from "./sections/Portfolio";
 import Experience from "./sections/Experience";
-import Testimonials from "./sections/Testimonials";
+
 import Contact from "./sections/Contact";
 import Silk from './components/Silk/Silk';
 
@@ -41,7 +41,7 @@ function App() {
         <Skills />
         <Portfolio />
         <Experience />
-        <Testimonials />
+        
         <Contact />
       </main>
     </div>

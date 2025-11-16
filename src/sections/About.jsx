@@ -2,7 +2,7 @@
 import React from "react";
 
 const About = () => {
-  const coreSkills = ["JavaScript", "React", "Node.js", "Python", "MongoDB"];
+  const coreSkills = ["JavaScript", "React","Next.js", "Node.js", "TypeScript", "Supabase", "Tailwind CSS", "Git", "Express.js"];
   const keyValues = ["On Time", "Details", "Team Works"];
 
   return (
